@@ -7,7 +7,7 @@ const Main = () => {
 const [amount,setAmount] = useState(""); 
 const [guests, setGuests] = useState("");
 const [quality, setQuality] = useState("");
-var tip = Number((amount * quality) / (guests)+(amount)).toFixed(2)
+var tip = Number((amount * quality) / (guests)).toFixed(2)
 
 
   return (
